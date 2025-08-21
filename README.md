@@ -43,7 +43,7 @@ index.html
 ## 📸 Screenshots
 
 
-![Projects Screenshot](images/Sc-1.png)
+![Portfolio homepage showing navigation bar, profile section with smiling avatar, welcome message, and project cards arranged in a grid layout. The background features a clean, modern design with soft colors and subtle shadows. Text displayed includes Home, Projects, Contact, and a greeting introducing Mehwish as a web developer. The overall tone is friendly and professional.]
 <img src="images/Sc-1.png" alt="Home" width="600">
 
 
