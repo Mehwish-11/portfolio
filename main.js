@@ -4,7 +4,7 @@ let scrollBtn = document.querySelector(".scroll-button a");
 console.log(scrollBtn);
 let val;
 window.onscroll = function () {
-    if (document.documentElement.scrollTop > 20){
+    if (document.documentElement.scrollTop > 20) {
         nav.classList.add("sticky");
         scrollBtn.style.display = "block";
     } else {
@@ -26,8 +26,8 @@ menuBtn.onclick = function () {
     scrollBtn.style.pointerEvents = "none";
 };
 cancelBtn.onclick = function () {
-    navbar.classList.remove ("active");
-    menuBtn.style.opacity="1";
+    navbar.classList.remove("active");
+    menuBtn.style.opacity = "1";
     menuBtn.style.pointerEvents = "auto";
     body.style.overflow = "auto";
     scrollBtn.style.pointerEvents = "auto";
@@ -41,4 +41,19 @@ for (var i = 0; i < navLinks.length; i++) {
         menuBtn.style.opacity = "1";
         menuBtn.style.pointerEvents = "auto";
     });
-}
+};
+
+//chat btn
+document.getElementById("chatBtn").addEventListener("click", function () {
+    window.location.href = "mailto:Mehwishfathima.mail@gamil.com?subject=Let's Connect&body=Hi Mehwish,%0D%0AI'd love to chat about your project!";
+});
+
+//download CV 
+document.getElementById("downloadBtn").addEventListener("click", function () {
+  const link = document.createElement("a");
+  link.href = "assets/Mehwish-CV.pdf";
+  link.download = "Mehwish-CV.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
