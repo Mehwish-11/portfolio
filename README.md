@@ -49,8 +49,3 @@ index.html
 
 ---
 
-✅ This format makes your repo look **professional & recruiter-friendly**.  
-
-Do you want me to **add badges (GitHub stars, forks, tech badges)** at the top to make it look even cooler and stand out?
-
-
